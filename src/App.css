@@ -1,0 +1,102 @@
+body{
+    background-color: #ab1b63;
+    overflow-x: hidden;
+}
+
+.App{
+    background-color: #ed77b2;
+    min-height: 400px;
+    width: 360px;
+    margin: 70px auto;
+    border-radius: 20px;
+}
+
+#r1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
+#to-do-form input{
+    background-color: #33323f;
+    border: 0;
+    width: 180px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#to-do-form input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    outline: none;
+}
+
+#to-do-form input:focus, #to-do-form button:focus{
+    outline: none;
+}
+
+#to-do-form button{
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+    border: 0;
+    font-weight: bolder;
+    color: #fff;
+    margin: auto;
+    background-color: #c72c4d;
+    cursor: pointer;
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+}
+
+.list p span{
+    position: absolute;
+    right: 7px;
+    cursor: pointer;
+}
+
+.faicons{
+    font-size: 14px;
+    margin: 0 4px;
+}
+
+
+
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .half{
+    position: relative;
+    width: 48%;
+}
+
+@media (max-width: 991px){
+    .row{
+        flex-direction: column;
+    }
+
+    .row .half{
+        position: relative;
+        width: 100%;
+    }
+
+    .App{
+        margin: 30px auto;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+}
