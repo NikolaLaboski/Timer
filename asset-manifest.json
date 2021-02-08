@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/NikolaLaboski/TimerApp.git/static/css/main.ea902aab.chunk.css",
+    "main.js": "/NikolaLaboski/TimerApp.git/static/js/main.c785fdbe.chunk.js",
+    "main.js.map": "/NikolaLaboski/TimerApp.git/static/js/main.c785fdbe.chunk.js.map",
+    "runtime-main.js": "/NikolaLaboski/TimerApp.git/static/js/runtime-main.57ae6e51.js",
+    "runtime-main.js.map": "/NikolaLaboski/TimerApp.git/static/js/runtime-main.57ae6e51.js.map",
+    "static/js/2.bbe475ce.chunk.js": "/NikolaLaboski/TimerApp.git/static/js/2.bbe475ce.chunk.js",
+    "static/js/2.bbe475ce.chunk.js.map": "/NikolaLaboski/TimerApp.git/static/js/2.bbe475ce.chunk.js.map",
+    "index.html": "/NikolaLaboski/TimerApp.git/index.html",
+    "static/css/main.ea902aab.chunk.css.map": "/NikolaLaboski/TimerApp.git/static/css/main.ea902aab.chunk.css.map",
+    "static/js/2.bbe475ce.chunk.js.LICENSE.txt": "/NikolaLaboski/TimerApp.git/static/js/2.bbe475ce.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57ae6e51.js",
+    "static/js/2.bbe475ce.chunk.js",
+    "static/css/main.ea902aab.chunk.css",
+    "static/js/main.c785fdbe.chunk.js"
+  ]
+}
